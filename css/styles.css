@@ -166,8 +166,6 @@ img {
 .hero-image {
     background-color: #2E2F42;
     padding-block: 72px;
-    width: 100%;
-    max-width: 320px;
     overflow: hidden;
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mob.jpg);
     background-repeat: no-repeat;
@@ -242,7 +240,6 @@ img {
     font-size: 36px;
     line-height: 1.11111;
     letter-spacing: 0.02em;
-    margin-top: 8px;
     text-align: center;
 }
 
@@ -913,7 +910,6 @@ img {
 
     .hero-image {
         padding-block: 112px;
-        max-width: 768px;
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tab.jpg);
     }
 
@@ -957,7 +953,7 @@ img {
     }
 
     .our-team-li {
-        flex-basis: calc((100% - 48px) / 2);
+        flex-basis: calc((100% - 24px) / 2);
     }
 
     .our-portfolio-container-ul {
@@ -1070,6 +1066,7 @@ img {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
+        margin-top: 8px;
     }
 
     .our-features-p {
