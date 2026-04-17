@@ -137,12 +137,6 @@ img {
     display: flex;
 }
 
-.contacts-ul-li {
-    height: 14px;
-    display: flex;
-    align-items: center;
-}
-
 .contacts-a {
     color: #434455;
     font-size: 16px;
@@ -810,6 +804,7 @@ img {
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
+    height: 100%;
     max-width: 320px;
     background-color: #fff;
     padding: 72px 24px 40px 16px;
@@ -886,6 +881,11 @@ img {
 
     .contacts {
         display: block;
+    }
+
+    .contacts-ul-li {
+        display: flex;
+        align-items: center;
     }
 
     .contacts-ul {
@@ -1100,6 +1100,7 @@ img {
         flex-direction: row;
         align-items: baseline;
         padding-inline: 15px;
+        gap: unset;
     }
 
     .footer {
