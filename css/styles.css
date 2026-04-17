@@ -151,16 +151,21 @@ img {
     color: #404BBF;
 }
 
+.mob-menu-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: block;
+    padding: 0;
+}
+
 .header-svg {
     fill: #2f2f37;
-    position: absolute;
-    right: 16px;
-    top: 16px;
 }
 
 .hero-image {
     background-color: #2E2F42;
-    padding: 72px 52px;
+    padding-block: 72px;
     width: 100%;
     max-width: 320px;
     overflow: hidden;
@@ -902,7 +907,7 @@ img {
         letter-spacing: 0.04em;
     }
 
-    .header-svg {
+    .mob-menu-button {
         display: none;
     }
 
@@ -944,7 +949,7 @@ img {
     }
 
     .our-team .container {
-    padding-inline: 108px;
+        padding-inline: 108px;
     }
 
     .our-team-list {
@@ -1034,7 +1039,6 @@ img {
 
     .hero-image {
         padding-block: 188px;
-        min-width: 1158px;
         max-width: 1440px;
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     }
